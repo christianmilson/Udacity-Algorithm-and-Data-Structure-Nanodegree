@@ -1,4 +1,4 @@
-Project 1
+## Project 1
 
 For this approach i used a hash map to ensure operations occured in constant time
 
@@ -6,14 +6,14 @@ Time Complexity is O(1) for get as occurs in constant time
 Time Complexity is O(1) for set as occurs in constant time
 Space Complexity is O(n) as is dependent of the capacity of the LRU Cache
 
-Project 2
+## Project 2
 
 For this approach recursion is the way to go, as the search depth is unknown for the given search paramter.
 
 Time Complexity is O(n) where n is the total number of files present in the directory (including all sub directories)
 Space Complexity is also O(n), where n is the total number of files present in the directory.
 
-Project 3
+## Project 3
 
 For this approach, first i used a hash map to determine the character frequency of input string, then built up a huffman tree using summation of largest nodes.
 
@@ -22,21 +22,21 @@ Space Complexity is O(n) for encode as its dependent on the number of unique let
 Time Complexity is O(n) for decode where n is size of encoded string
 Space Complexity is O(1) as only one varible is used
 
-Project 4
+## Project 4
 
 For this approach i chose to implement recursion in the is_user_in_group method as the search depth is unknown
 
 Time Complexity is O(n), where n represents the number of recursive iterations need to search, this is dependent on the number of groups and there sub groups/users.
 Space Complexity is O(1), as the method only returns once.
 
-Project 5
+## Project 5
 
 For this approach i used a linked list
 
 Time Complexity is O(1) as the push operation occurs in constant time.
 Space Complexity is O(n) as its dependent on the number of blocks (nodes) in the blockchain.
 
-Project 6
+## Project 6
 
 For the union i used a dictionary to build up a hash map of unique numbers in the first linked list, to use to match whether or not a given number in the second linked list existed in first
 Time Complexity is O(n) as its dependent on the number of elements in the linked lists
